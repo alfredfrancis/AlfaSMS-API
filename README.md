@@ -21,15 +21,15 @@ Why way2sms ??
 	Simple usage															
   ====================
 	1.
-		<?php																	
+	```php		<?php																	
 			include_once "alfa.sms.class.php";									
 			$sms=new AlfaSMS();													
 			$result=$sms->login('username','password');							
 			$sms->send('8089617433','Thanks Alfred,your API works perfectly.');	
 			$sms->logout();															
-		?>																		
+		?>```																		
 	2.
-		<?php
+	```php	<?php
 			include_once "alfasmsapi/alfa.sms.php";
 			$link = mysql_connect("localhost", "mysql_username", "mysql_password") or die ("Could not connect to MySQL");
 			mysql_select_db ("Your_databse") or die ("Could not select database");
@@ -40,7 +40,7 @@ Why way2sms ??
 			{
 				alfasms($myrow["mobile"],$content);	
 			};
-		?>
+		?>```
 	
 	If you get Fatal error: Call to undefined function curl_init() ,
 	Then you need to enable the curl extension in php.ini from your controlpanel.
