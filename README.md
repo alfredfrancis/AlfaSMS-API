@@ -1,14 +1,6 @@
 
-   /*************************************************************
-	*		Alfasms API 4.0 for way2sms							*
-	*		Author		  : Alfred francis						*
-	*		Email         : alfredputhurh@gmail.com				*
-	*		Phone         : +918089617433						*
-	*		API homepage  : www.alfredfrancis.in/alfasms-api	*	
-	*		Feel free to edit,share and publish					*
-	*************************************************************
 	
-	Why way2sms ??
+Why way2sms ??
 =================
 	
 		-> Instant delivary
@@ -63,5 +55,4 @@
 	My sincere thanks to, 
 		Albert paul               -> www.techdevian.com
 		Kiran kumar				  -> www.thekirankumar.com
-	*/
-?>
+
